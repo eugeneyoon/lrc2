@@ -1,0 +1,94 @@
+header{
+  font-size: 60px;
+  text-align: center;
+  padding: 0.5em 0.2em;
+}
+
+.columnBox{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.monthView, .words{
+  padding: 0.8em 1.2em;
+  /* border-style: solid;
+  border-color: black; */
+  text-align: center;
+}
+
+.weekView{
+  padding: 0.8em 1.2em;
+  /* border-style: solid;
+  border-color: black; */
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.wordBox{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /* grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; */
+  background-color: #ccc;
+}
+
+.singleWord{
+  padding: 4em 2em;
+  /* border-style: solid;
+  border-color: black; */
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3; 
+}
+
+.weekWord{
+  padding: 4em 2em;
+  /* border-style: solid;
+  border-color: black; */
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.wordAudio{
+  padding: 1em 1em;
+  /* border-style: solid;
+  border-color: black; */
+  align-self: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.weekAudio{
+  /* border-style: solid;
+  border-color: black; */
+  align-self: center;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.left{
+/* floating */
+}
+
+.right{
+/* floating */
+}
+
+.down{
+/* floating */
+}
+
+.up{
+/* floating */
+}
+
+.words:hover, .weekView:hover, .singleWord:hover, .monthView:hover, .weekWord:hover {
+  background-color: #aaa;
+}
